@@ -19,9 +19,7 @@ class TestudoScraper:
         self.courses = []
         
     def scrape_course_page(self, prefix):
-        """Scrape all courses for a given prefix using the correct URL format"""
         url = f"{self.base_url}{self.term_code}/{prefix}"
-        print(f"Scraping {prefix}...", end=" ")
         
         try:
             response = self.session.get(url, timeout=15)

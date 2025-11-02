@@ -1,0 +1,234 @@
+[
+  {
+    "course_section": "PHYS401",
+    "course_name": "Introduces students to special relativity and quantum mechanics. Topics include relativistic spacetime and 4-momentum, historical origins of quantum mechanics, single particle bound states and scattering in one dimension, the hydrogen atom, spin-1/2, and quantum information theory. Students completing",
+    "credits": "N/A",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "PHYS373",
+    "course_name": "The first of a two-semester survey of quantum mechanics, employing the formalism of Dirac notation, linear operators, and Hilbert spaces. Quantum state preparation and measurement, the Schroedinger equation in both its matrix and wave descriptions, and applications to systems such as the harmonic oscillator and the hydrogen atom.",
+    "credits": "3",
+    "restrictions": "Must be in a major within CMNS-Physics department.",
+    "prerequisites": "PHYS401.",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "PLSC303",
+    "course_name": "Global Food Systems",
+    "credits": "3",
+    "restrictions": "Senior standing or higher.",
+    "prerequisites": "Minimum grade of C- in BSCI170 and BSCI171; or students who have taken courses with comparable content may contact the department.",
+    "summary": "An introduction to the global food system and its agricultural, biophysical, and socioeconomic domains. The problems and potentials for increasing world food supply based on current agronomic knowledge. Emphasis on international aspects of food crop production as its interrelationships with people and the environment in the developing world."
+  },
+  {
+    "course_section": "PSYC623",
+    "course_name": "Child Development & Psychopathology",
+    "credits": "3",
+    "restrictions": "Permission of instructor; and must be in one of the following programs (Psychology (Master's); Psychology (Doctoral)).",
+    "prerequisites": "None",
+    "summary": "Examines the scientific and clinical literature relevant to developmental aspects of behavior across the lifespan and normal and pathological behavior in children and adolescents. Issues in developmental psychology and developmental psychopathology and consideration of processes initiated in childhood that manifest as pathology in adulthood are also considered."
+  },
+  {
+    "course_section": "PSYC625",
+    "course_name": "Clinical Assessment: Psychometric Principles, Testing and Behavior",
+    "credits": "3",
+    "restrictions": "Permission of BSOS-Psychology department. Credit only granted for:",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS200",
+    "course_name": "Introduction to WGSS: Gender, Power, and Society",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-History Department.  with: ARHU230, ENGL254, HIST219N. Credit only granted for: ARHU230 , ENGL289C, ENGL254, ARHU298A, HIST219N, or WGSS230.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Examines constructions of race, class, sexuality, ability, and gender relations from a social science multi-disciplinary perspective. The course interrogates the ways that systems of hierarchy and privilege are created, enforced, and intersect through the language of race, class, sexuality, and national belonging. The course will provide students with the skills to examine how systems of power manifest in areas such as poverty, division of labor, health disparities, policing, violence. In addition to examining the impact of systems of power, students will reflect on their own location within the exercise of racialized, and gendered power relations. This course encourages students to understand and critique these systems both personally and politically."
+  },
+  {
+    "course_section": "WGSS205",
+    "course_name": "Reproductive Justice: An Introduction",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-History Department.  with: ARHU230, ENGL254, HIST219N. Credit only granted for: ARHU230 , ENGL289C, ENGL254, ARHU298A, HIST219N, or WGSS230.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS211",
+    "course_name": "Women in America Since 1880",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-History Department.  with: ARHU230, ENGL254, HIST219N. Credit only granted for: ARHU230 , ENGL289C, ENGL254, ARHU298A, HIST219N, or WGSS230.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "An examination of women's changing roles in working class and middle class families, the effects of industrialization on women's economic activities and status, and women's involvement in political and social struggles, including those for women's rights, birth control, and civil rights."
+  },
+  {
+    "course_section": "WGSS230",
+    "course_name": "Introduction to Humanities, Health, and Medicine",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-History Department.  with: ARHU230, ENGL254, HIST219N. Credit only granted for: ARHU230 , ENGL289C, ENGL254, ARHU298A, HIST219N, or WGSS230.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "An overview of the historical, cultural, ethical, and spiritual dimensions of medicine, human health, disease, and death from the points of view of various humanistic disciplines."
+  },
+  {
+    "course_section": "WGSS250",
+    "course_name": "Introduction to WGSS: Art and Culture",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Provides students with a critical introduction to the ways that art and art activism have served as a conduit to understanding and challenging systems of inequity and practices of normativity. Interrogating the categories of gender, sexuality, race, class, ability, the course will provide students with an examination of how artists have responded to pressing social justice issues of their eras. While the course centers visual art, students will also engage genres such as music, plays, literature, digital and performance art as arenas of social change."
+  },
+  {
+    "course_section": "WGSS255",
+    "course_name": "Reading Women Writing",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Explores literary and cultural expressions by women and their receptions within a range of historical periods and genres. Topics such as what does a woman need in order to write, what role does gender play in the production, consumption, and interpretation of texts, and to what extent do women comprise a distinct literary subculture. Interpretation of texts will be guided by feminist and gender theory, ways of reading that have emerged as important to literary studies over the last four decades."
+  },
+  {
+    "course_section": "WGSS265",
+    "course_name": "Constructions of Manhood and Womanhood in the Black Community",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Investigates the ways that African Americans are represented and constructed in public and private spheres and explores the social constructions and representations of Black manhood and womanhood from various disciplinary perspectives."
+  },
+  {
+    "course_section": "WGSS275",
+    "course_name": "World Literature by Women",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Comparative study of selected works by women writers of several countries, exploring points of intersection and divergence in women's literary representations."
+  },
+  {
+    "course_section": "WGSS290",
+    "course_name": "Bodies in Contention",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Explores the contributions of feminist scholarship in framing and resolving contemporary controversies concerning gendered bodies. It includes the ways in which knowledge about the human body has been shaped by cultural ideas of gender, race, sexuality and ability."
+  },
+  {
+    "course_section": "WGSS291",
+    "course_name": "Racialized Gender and Rebel Media",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS310",
+    "course_name": "Transgender Studies",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "LGBT200 . Cross-listed with: LGBT310. Credit only granted for: LGBT310, WMST310 or WGSS310.",
+    "summary": "Introduces students to the interdisciplinary field of transgender studies, providing a history of the field and engaging current debates within it. Students will explore the emergence and consolidation of trans identities, practices, cultures, and knowledges across medical, historical, sociological, cultural, and artistic contexts, paying particular attention to dynamics of race, class, and ability, to global and transnational difference, and to the implications of transgender studies for understanding gender and sexuality overall."
+  },
+  {
+    "course_section": "WGSS315",
+    "course_name": "Intro to Fat Studies: Fatness, Blackness and Their Intersections",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS320",
+    "course_name": "Women in Classical Antiquity",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "3 credits in SOCY courses. Cross-listed with: SOCY325. Credit only granted for: SOCY325, WMST325 or WGSS325. Formerly: WMST325.",
+    "summary": "A study of women's image and reality in ancient Greek and Roman societies through an examination of literary, linguistic, historical, legal, and artistic evidence; special emphasis in women's role in the family, views of female sexuality, and the place of women in creative art. Readings in primary sources in translation and modern critical writings."
+  },
+  {
+    "course_section": "WGSS325",
+    "course_name": "The Sociology of Gender",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "3 credits in SOCY courses. Cross-listed with: SOCY325. Credit only granted for: SOCY325, WMST325 or WGSS325. Formerly: WMST325.",
+    "summary": "Institutional bases of gender roles and gender inequality, cultural perspectives on gender, gender socialization, feminism, and gender-role change. Emphasis on contemporary American society."
+  },
+  {
+    "course_section": "WGSS358",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Permission of ARHU-Women's Studies department. Repeatable to 9 credits. Students work under the supervision of a faculty mentor to assist with an undergraduate LGBT or WMST course while also becoming conversant in feminist, critical race, and queer pedagogical debates and approaches.",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS368",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Permission of the Harriet Tubman Department of Women, Gender, and Sexuality Studies.",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS378",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Permission of the Harriet Tubman Department of Women, Gender, and Sexuality Studies. Repeatable to 9 credits if content differs. Formerly: WMST378.",
+    "prerequisites": "WMST300 or WGSS301; and WMST400 or WGSS302. Credit only granted for: WMST487 or WGSS487. Formerly: WMST487.",
+    "summary": "Contact department for information to register for this course."
+  },
+  {
+    "course_section": "WGSS379",
+    "course_name": "Topics in Women, Gender, and Sexuality Studies; AI Otherwise",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS428",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Must be in a program in the Harriet Tubman Department of Women, Gender, and Sexuality Studies; or must be in a major within SPHL-Behavioral & Community Health department.  with: HLTH471. Credit only granted for: HLTH471, WMST471, or WGSS471.. Formerly: WMST471.",
+    "prerequisites": "WMST300 or WGSS301; and WMST400 or WGSS302. Credit only granted for: WMST487 or WGSS487. Formerly: WMST487.",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS698",
+    "course_name": "Show Sections",
+    "credits": "3",
+    "restrictions": "Must be in a program in the Harriet Tubman Department of Women, Gender, and Sexuality Studies; or must be in a major within SPHL-Behavioral & Community Health department.  with: HLTH471. Credit only granted for: HLTH471, WMST471, or WGSS471.. Formerly: WMST471.",
+    "prerequisites": "WMST300 or WGSS301; and WMST400 or WGSS302. Credit only granted for: WMST487 or WGSS487. Formerly: WMST487.",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "WGSS471",
+    "course_name": "Women's Health",
+    "credits": "3",
+    "restrictions": "Must be in a program in the Harriet Tubman Department of Women, Gender, and Sexuality Studies; or must be in a major within SPHL-Behavioral & Community Health department.  with: HLTH471. Credit only granted for: HLTH471, WMST471, or WGSS471.. Formerly: WMST471.",
+    "prerequisites": "WMST300 or WGSS301; and WMST400 or WGSS302. Credit only granted for: WMST487 or WGSS487. Formerly: WMST487.",
+    "summary": "The women's health movement from the perspective of consumerism and feminism. The physician-patient relationship in the gynecological and other medical settings. The gynecological exam, gynecological problems, contraception, abortion, pregnancy, breast and cervical cancer and surgical procedures. Psychological aspects of gynecological concerns."
+  },
+  {
+    "course_section": "WGSS487",
+    "course_name": "Advanced Research Seminar in Gender, Race, and Queer Studies",
+    "credits": "3",
+    "restrictions": "Permission of the Harriet Tubman Department of Women,omen Gender, and Sexuality Studies. In this broadly configured course, we examine the way that Black women write new narratives and possibilities for themselves in the midst of hierarchies and harms such as trans and homophobia, patriarchy, colonialism, ableism, and white supremacy. Multi-textual in content, we will examine visual art, songs, folklore, film, literature, policy and legislative reform as conduits for how Black women flip the script and imagine new possibilities for self and community. The texts we engage will reflect key moments, movements and events from the mid-twentieth century to the present day.",
+    "prerequisites": "WMST300 or WGSS301; and WMST400 or WGSS302. Credit only granted for: WMST487 or WGSS487. Formerly: WMST487.",
+    "summary": "A research seminar that allows students to focus their developed skills on a single topic of their own choosing while meeting regularly in seminar to discuss, critique, support, and learn from their peers' projects and assessments. Students choose a topic based on their own interests and prior coursework, perform advanced research appropriate to the question, and formulate an appropriate method of presentation of their research findings. The culminating presentation may take the form of a written paper or a creative, digital, or activist project."
+  },
+  {
+    "course_section": "WGSS301",
+    "course_name": "A research seminar that allows students to focus their developed skills on a single topic of their own choosing while meeting regularly in seminar to discuss, critique, support, and learn from their peers' projects and assessments. Students choose a topic based on their own interests and prior coursework, perform advanced research appropriate to the question, and formulate an appropriate method of presentation of their research findings. The culminating presentation may take the form of a written paper or a creative, digital, or activist project.",
+    "credits": "3",
+    "restrictions": "Permission of the Harriet Tubman Department of Women,omen Gender, and Sexuality Studies. In this broadly configured course, we examine the way that Black women write new narratives and possibilities for themselves in the midst of hierarchies and harms such as trans and homophobia, patriarchy, colonialism, ableism, and white supremacy. Multi-textual in content, we will examine visual art, songs, folklore, film, literature, policy and legislative reform as conduits for how Black women flip the script and imagine new possibilities for self and community. The texts we engage will reflect key moments, movements and events from the mid-twentieth century to the present day.",
+    "prerequisites": "two English courses in literature or permission of department. Repeatable to 9 credits if content differs. Also offered as LGBT448Y and ENGL439D. Credit granted for ENGL439D, LGBT448Y, or WGSS498Y.",
+    "summary": "A research seminar that allows students to focus their developed skills on a single topic of their own choosing while meeting regularly in seminar to discuss, critique, support, and learn from their peers' projects and assessments. Students choose a topic based on their own interests and prior coursework, perform advanced research appropriate to the question, and formulate an appropriate method of presentation of their research findings. The culminating presentation may take the form of a written paper or a creative, digital, or activist project."
+  },
+  {
+    "course_section": "WGSS302",
+    "course_name": "A research seminar that allows students to focus their developed skills on a single topic of their own choosing while meeting regularly in seminar to discuss, critique, support, and learn from their peers' projects and assessments. Students choose a topic based on their own interests and prior coursework, perform advanced research appropriate to the question, and formulate an appropriate method of presentation of their research findings. The culminating presentation may take the form of a written paper or a creative, digital, or activist project.",
+    "credits": "3",
+    "restrictions": "Permission of the Harriet Tubman Department of Women,omen Gender, and Sexuality Studies. In this broadly configured course, we examine the way that Black women write new narratives and possibilities for themselves in the midst of hierarchies and harms such as trans and homophobia, patriarchy, colonialism, ableism, and white supremacy. Multi-textual in content, we will examine visual art, songs, folklore, film, literature, policy and legislative reform as conduits for how Black women flip the script and imagine new possibilities for self and community. The texts we engage will reflect key moments, movements and events from the mid-twentieth century to the present day.",
+    "prerequisites": "two English courses in literature or permission of department. Repeatable to 9 credits if content differs. Also offered as LGBT448Y and ENGL439D. Credit granted for ENGL439D, LGBT448Y, or WGSS498Y.",
+    "summary": "A research seminar that allows students to focus their developed skills on a single topic of their own choosing while meeting regularly in seminar to discuss, critique, support, and learn from their peers' projects and assessments. Students choose a topic based on their own interests and prior coursework, perform advanced research appropriate to the question, and formulate an appropriate method of presentation of their research findings. The culminating presentation may take the form of a written paper or a creative, digital, or activist project."
+  }
+]
