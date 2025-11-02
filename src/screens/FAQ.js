@@ -4,12 +4,10 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { question: "Question 1", answer: "Answer 1" },
-    { question: "Question 2", answer: "Answer 2" },
-    { question: "Question 3", answer: "Answer 3" },
-    { question: "Question 4", answer: "Answer 4" },
-    { question: "Question 5", answer: "Answer 5" },
-    { question: "Question 6", answer: "Answer 6" },
+    { question: "What does CourseAI do?", answer: "CourseAI uses Google Gemini to scan through all the course information listed on Testudo and return the courses specific to the user query, so that any student could ask the simple question of, 'which class offers XYZ gen eds without ABC prereq' and immediately get results." },
+    { question: "What was the inspiration?", answer: "As UMD students, we also suffered the many hours of sorting through Testudo's schedule of classes, trying to figure out what GenEds we needed while getting our major requirements. We wanted to develop an assistant that could parse through the seemingly endless amount of courses and details, and get the information straight to the student easily." },
+    { question: "What's next?", answer: "Course requirements, credits, and professors are all good, however, more data is always beneficial for an app like this. Teacher reviews and class stats would be incredibly helpful for students using this project." },
+
   ];
 
   const toggleFAQ = (index) => {

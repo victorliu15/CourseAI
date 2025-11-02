@@ -11,7 +11,7 @@ const About = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-text mb-4">Our Mission</h2>
           <p className="text-text leading-relaxed">
-            kasbfkhasbfkaghsgdksvbafkbaskjbn
+            Our mission is to streamline course selection and make it easier for all UMD students to figure out what they need to take. 
           </p>
         </section>
 
@@ -20,13 +20,13 @@ const About = () => {
             How It Works
           </h2>
           <p className="text-text leading-relaxed">
-            asfkhgasfkjgaskfaskjfhaskj
+We used a datascraper for the Testudo schedule of classes, converting all the relevant information into a JSON file that could be scanned by Google Gemini's API, and then have the relevant sections of said JSON file displayed to the user. 
           </p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-text mb-4">Our Team</h2>
-          <p className="text-text leading-relaxed">askufgaskfjgasbkjgasivhf</p>
+          <p className="text-text leading-relaxed">CourseAI was made by Victor Liu and Ashwath Babu, two ambitious freshmen at the University of Maryland. They both love celsius and video games</p>
         </section>
       </div>
     </main>
