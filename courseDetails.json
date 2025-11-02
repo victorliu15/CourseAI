@@ -1,0 +1,53 @@
+{
+  "Teacher": {
+    "name": "",
+    "department": "",
+    "email": "",
+    "ratings": {
+      "overall": 0,
+      "clarity": 0,
+      "helpfulness": 0,
+      "knowledge": 0 
+    },
+    "reviews": [
+      {
+        "student": "",
+        "date": "",
+        "rating": "",
+        "comment": ""
+      },
+      {
+        "student": "",
+        "date": "",
+        "rating": 0,
+        "comment": ""
+      }
+    ]
+  },
+
+  "CourseDescription": {
+    "course_id": "",
+    "course_title": "",
+    "teacher": "",
+    "department": "",
+    "credits": 0,
+    "semester": "",
+    "overview": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "prerequisites": [
+      "",
+      ""
+    ],
+    "topics": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}
