@@ -1,25 +1,30 @@
 import express from "express";
 import cors from "cors";
-import { processCourses } from "./processCourses.mjs";
 import dotenv from "dotenv";
-import path from "node:path";
+import path from "path";
+import { fileURLToPath } from "url";
+import { processCourses } from "./processCourses.mjs";
 
-dotenv.config({ path: path.resolve("../.env") });
+// Needed for __dirname equivalent in ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 app.post("/api/courses", async (req, res) => {
-  const { query } = req.body; // this comes from Chat.js
   try {
-    // Pass it as `keywordQuery` to processCourses
-    const data = await processCourses({ keywordQuery: query });
-    res.json(data);
+    const { message } = req.body;
+    const result = await processCourses({ nlQuery: message });
+    res.json(result);
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: err.message });
+    console.error("Error processing request:", err);
+    res.status(500).json({ error: err.message || "Internal Server Error" });
   }
 });
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+const PORT = 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

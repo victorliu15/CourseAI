@@ -13,14 +13,15 @@ const Chat = ({ placeholder = "Type your message here..." }) => {
       const res = await fetch("http://localhost:5000/api/courses", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message }), // <-- pass as `message`
+        body: JSON.stringify({ message }),
       });
+
       const data = await res.json();
-      console.log(data.results);
+      console.log("Gemini results:", data.results);
 
       navigate("/recommendations", { state: { courses: data.results || [] } });
     } catch (err) {
-      console.error(err);
+      console.error("Error:", err);
     }
 
     setMessage("");

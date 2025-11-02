@@ -1,27 +1,34 @@
-// backend/processCourses.mjs
 import fs from "node:fs";
 import path from "node:path";
+import process from "node:process";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import dotenv from "dotenv";
 
 dotenv.config({ path: path.resolve("../.env") });
 
 const API_KEY = process.env.GEMINI_API_KEY;
-if (!API_KEY) throw new Error("Missing GEMINI_API_KEY env var.");
+if (!API_KEY) {
+  console.error("Missing GEMINI_API_KEY env var.");
+  process.exit(1);
+}
 
 const MODEL_NAME = "gemini-2.5-flash";
 const DATA_PATH = path.resolve("./classes.json");
 
-// Wrap the whole logic in a function
+const genAI = new GoogleGenerativeAI(API_KEY);
+const model = genAI.getGenerativeModel({
+  model: MODEL_NAME,
+  generationConfig: { responseMimeType: "application/json" },
+});
+
 export async function processCourses({
   sectionQuery,
   keywordQuery,
   nlQuery,
   limit,
 }) {
-  const limitArg = limit || null;
+  const limitArg = Number(limit || 0) || null;
 
-  // Load the raw catalog
   let raw;
   try {
     raw = JSON.parse(fs.readFileSync(DATA_PATH, "utf8"));
@@ -30,7 +37,6 @@ export async function processCourses({
   }
   if (!Array.isArray(raw)) throw new Error(`Expected an array in ${DATA_PATH}`);
 
-  // Prefilter for section/keywords
   function matchesKeywords(course, q) {
     const hay = [
       course.course_section,
@@ -56,7 +62,6 @@ export async function processCourses({
     candidates = candidates.filter((c) => matchesKeywords(c, keywordQuery));
   }
 
-  // Short-circuit if nothing matches and no nlQuery
   if (!nlQuery && candidates.length === 0) {
     return {
       query: {
@@ -70,18 +75,12 @@ export async function processCourses({
     };
   }
 
-  const genAI = new GoogleGenerativeAI(API_KEY);
-  const model = genAI.getGenerativeModel({
-    model: MODEL_NAME,
-    generationConfig: { responseMimeType: "application/json" },
-  });
-
   const systemInstruction = `
 You are a strict data selector/normalizer for a course catalog. You will receive:
 1) A user question (natural language).
 2) An array of raw course records (JSON). Use only this data—no outside facts.
 
-Return JSON in EXACTLY this shape:
+Your job: return JSON in EXACTLY this shape:
 {
   "query": { "section": string|null, "keywords": string|null, "nl": string|null, "limit": number|null },
   "results": [
@@ -96,7 +95,7 @@ Return JSON in EXACTLY this shape:
     }
   ]
 }
-Only use data from the input array; do not hallucinate.`;
+Only use input data, no hallucinations. Return ONLY JSON.`;
 
   const meta = {
     section: sectionQuery || null,
@@ -104,10 +103,10 @@ Only use data from the input array; do not hallucinate.`;
     nl: nlQuery || null,
     limit: limitArg,
   };
-  const dataForModel = nlQuery ? raw : candidates;
 
+  const dataForModel = nlQuery ? raw : candidates;
   const fullPrompt = `
-UserQuestion: ${nlQuery || "(none)"}
+UserQuestion: ${nlQuery ?? "(none)"}
 MetaQuery: ${JSON.stringify(meta)}
 RawCourseArray:
 ${JSON.stringify(dataForModel, null, 2)}
@@ -118,14 +117,31 @@ ${JSON.stringify(dataForModel, null, 2)}
   );
   const text = resp.response.text().trim();
 
-  // Parse JSON
+  function extractJson(t) {
+    const fenced = t.match(/```(?:json)?\s*([\s\S]*?)```/i);
+    if (fenced) return fenced[1].trim();
+    let depth = 0,
+      start = -1;
+    for (let i = 0; i < t.length; i++) {
+      if (t[i] === "{") {
+        if (depth === 0) start = i;
+        depth++;
+      } else if (t[i] === "}") {
+        depth--;
+        if (depth === 0 && start !== -1) return t.slice(start, i + 1);
+      }
+    }
+    return t.trim();
+  }
+
   let parsed;
   try {
     parsed = JSON.parse(text);
   } catch {
-    const match = text.match(/\{[\s\S]*\}/);
-    if (match) parsed = JSON.parse(match[0]);
-    else throw new Error("Failed to parse JSON from model response");
+    const candidate = extractJson(text)
+      .replace(/[\u201C\u201D]/g, '"')
+      .replace(/[\u2018\u2019]/g, "'");
+    parsed = JSON.parse(candidate);
   }
 
   if (limitArg && Array.isArray(parsed.results)) {
@@ -133,4 +149,26 @@ ${JSON.stringify(dataForModel, null, 2)}
   }
 
   return parsed;
+}
+
+// If run directly (CLI), allow local testing
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const args = process.argv.slice(2);
+  function getArg(flag) {
+    const i = args.indexOf(flag);
+    return i !== -1 ? args[i + 1] : undefined;
+  }
+
+  const sectionQuery = getArg("--section");
+  const keywordQuery = getArg("--keywords");
+  const nlQuery = getArg("--nl");
+  const limit = getArg("--limit");
+
+  processCourses({ sectionQuery, keywordQuery, nlQuery, limit })
+    .then((result) => {
+      console.log(JSON.stringify(result, null, 2));
+    })
+    .catch((err) => {
+      console.error("Error:", err.message);
+    });
 }
