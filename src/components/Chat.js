@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Chat = () => {
+const Chat = ({ placeholder = "Type your message here..." }) => {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
@@ -17,7 +17,7 @@ const Chat = () => {
             <textarea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type your message here..."
+              placeholder={placeholder}
               className="w-full h-full px-4 py-3 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
               rows="4"
             />

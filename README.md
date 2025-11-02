@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# CourseAI
+
+An AI-powered course selection platform with a React frontend and Python web scraper backend that integrates with UMD Testudo's Schedule of Classes.
+
+## Project Structure
+
+```
+courseai/
+├── src/                    # React frontend
+│   ├── components/        # Reusable UI components
+│   ├── screens/           # Page components
+│   └── assets/            # Styles and static assets
+├── backend/               # Python web scraper
+│   ├── scraper.py         # UMD Testudo scraper
+│   └── requirements.txt   # Python dependencies
+└── classes.json           # Scraped course data (generated)
+```
+
+## Frontend Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +86,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Backend Setup
+
+The Python scraper extracts course information from UMD Testudo. See [backend/README.md](backend/README.md) for detailed instructions.
+
+Quick start:
+
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python scraper.py
+```
