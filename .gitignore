@@ -35,7 +35,3 @@ backend/ENV/
 *.egg-info/
 dist/
 build/
-
-# Scraper output
-classes.json
-backend/classes.json

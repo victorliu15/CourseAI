@@ -1,0 +1,522 @@
+[
+  {
+    "course_section": "CMSC100",
+    "course_name": "Bits and Bytes of Computer and Information Sciences",
+    "credits": "1",
+    "restrictions": "For first time freshmen and first time transfer students; or permission of CMNS-Computer Science department.  with: INST101. Credit only granted for: CMSC100 or INST101.",
+    "prerequisites": "Must have completed or be concurrently enrolled in MATH115 or higher. Restriction: Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126. Credit only granted for: IMDM127 or CMSC125.",
+    "summary": "Students are introduced to the fields (and disciplines) of computer science and information science within a small classroom setting. They will learn to make a successful transition from high school to the university, while exploring study skills, student success plans and research opportunities."
+  },
+  {
+    "course_section": "CMSC115",
+    "course_name": "Gender, Race and Computing",
+    "credits": "3",
+    "restrictions": "Must not have taken",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC216",
+    "course_name": "Race and gender have shaped computing from its earliest histories to contemporary debates over bias in search algorithms, surveillance, and AI. As computational processes shape ever more dimensions of everyday life from the personal to the global scale, understanding how they operate and how power operates within them grows ever more important. Combating racism and sexism is not as simple as ensuring the pool of programmers and engineers is more diverse; structures of power are embedded in digital technologies as they are in all aspects of our society, and we must learn to perceive their operation if we hope to transform them. We will examine how racism and sexism operate in the field of computer science and in everyday uses of digital technologies, while studying how feminist and racial justice movements have created alternative approaches. This class is for anyone who wishes to better understand the relationships between digital technology, structural power, and social justice.",
+    "credits": "3",
+    "restrictions": "Must not have completed any courses from CMSC131-499 course range; and must not be concurrently enrolled in CMSC131. Credit only granted for: CMSC106, or CMSC122.",
+    "prerequisites": "Must have completed or be concurrently enrolled in MATH115 or higher. Restriction: Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126. Credit only granted for: IMDM127 or CMSC125.",
+    "summary": "Race and gender have shaped computing from its earliest histories to contemporary debates over bias in search algorithms, surveillance, and AI. As computational processes shape ever more dimensions of everyday life from the personal to the global scale, understanding how they operate and how power operates within them grows ever more important. Combating racism and sexism is not as simple as ensuring the pool of programmers and engineers is more diverse; structures of power are embedded in digital technologies as they are in all aspects of our society, and we must learn to perceive their operation if we hope to transform them. We will examine how racism and sexism operate in the field of computer science and in everyday uses of digital technologies, while studying how feminist and racial justice movements have created alternative approaches. This class is for anyone who wishes to better understand the relationships between digital technology, structural power, and social justice."
+  },
+  {
+    "course_section": "CMSC122",
+    "course_name": "Introduction to Computer Programming via the Web",
+    "credits": "3",
+    "restrictions": "Must not have completed any courses from",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC125",
+    "course_name": "Introduction to Computing",
+    "credits": "3",
+    "restrictions": "Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126. Credit only granted for: IMDM127 or CMSC125.",
+    "prerequisites": "Must have completed or be concurrently enrolled in MATH115 or higher. Restriction: Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126. Credit only granted for: IMDM127 or CMSC125.",
+    "summary": "Introduces you to the computing field as a whole. You will gain skills used across the spectrum of computing majors and learn about the great variety of routes into the various areas of study and employment in technological fields."
+  },
+  {
+    "course_section": "CMSC141",
+    "course_name": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.",
+    "credits": "N/A",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC132",
+    "course_name": "Object-Oriented Programming II",
+    "credits": "4",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC142",
+    "course_name": "Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools. Use object-oriented methods to create effective and efficient problem solutions. Use and implement application programming interfaces (APIs). Programming done in Java.",
+    "credits": "N/A",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC250",
+    "course_name": "(Perm Req)",
+    "credits": "4",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC298",
+    "course_name": "(Perm Req)",
+    "credits": "1",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC320",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC330",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC335",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC351",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC396",
+    "course_name": "(Perm Req)",
+    "credits": "1",
+    "restrictions": "Permission of CMNS-Computer Science department.",
+    "prerequisites": "Must have admission into Computer Science Departmental Honors Program. Restriction: Permission of CMNS-Computer Science department.",
+    "summary": "Overview of computer science research activities, techniques, and tools. Diverse research areas will be covered, including systems, networks, artificial intelligence, human-computer interaction, software engineering, graphics, vision, and theory."
+  },
+  {
+    "course_section": "CMSC401",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Permission of CMNS-Computer Science department. Credit only granted for: ENEE446 or CMSC411.",
+    "prerequisites": "GEOG276; or a minimum grade of C- in CMSC330 and CMSC351; or permission of instructor. Cross-listed with: GEOG470. Jointly offered with: GEOG770. Credit only granted for: CMSC498Q, CMSC401, CMSC788I, GEOG470, GEOG498I, GEOG770, or GEOG788I. Formerly: GEOG498I.",
+    "summary": "An introduction to fundamental geospatial objects and geometric algorithms for spatio-temporal data processing and analysis. Point data representation and analysis: spatial data models and data structures, algorithms for spatial queries, point clustering algorithms. Surface and scalar field modeling, such as terrains: raster and triangle-based models (TINs), algorithms for building and querying TINs. Algorithms for natural and urban terrain analysis: morphology computation and visibility analysis. Applications to processing and analysis of LiDAR (Light Detection And Ranging) data in the context of terrain reconstruction, urban modeling, forest management and bathymetry reconstruction for coastal data management. Road network computation and analysis: algorithms for route computation in road networks, and for road network reconstruction from GPS and satellite data."
+  },
+  {
+    "course_section": "CMSC788",
+    "course_name": "An introduction to fundamental geospatial objects and geometric algorithms for spatio-temporal data processing and analysis. Point data representation and analysis: spatial data models and data structures, algorithms for spatial queries, point clustering algorithms.  Surface and scalar field modeling, such as terrains: raster and triangle-based models (TINs), algorithms for building and querying TINs. Algorithms for natural and urban terrain analysis: morphology computation and visibility analysis. Applications to processing and analysis of  LiDAR (Light Detection And Ranging) data in the context of terrain reconstruction, urban modeling, forest management and bathymetry reconstruction for coastal data management. Road network computation and analysis: algorithms for route computation in road networks, and for road network reconstruction from GPS and satellite data.",
+    "credits": "3",
+    "restrictions": "Permission of CMNS-Computer Science department. Credit only granted for: ENEE446 or CMSC411.",
+    "prerequisites": "Minimum grade of C- in CMSC330; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program. Restriction: Permission of CMNS-Computer Science department. Credit only granted for: ENEE446 or CMSC411.",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC411",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC412",
+    "course_name": "(Perm Req)",
+    "credits": "4",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC435",
+    "course_name": "A hands-on introduction to operating systems, including topics in: multiprogramming, communication and synchronization, memory management, IO subsystems, and resource scheduling polices. The laboratory component consists of constructing a small kernel, including functions for device IO, multi-tasking, and memory management.",
+    "credits": "3",
+    "restrictions": "Permission of CMNS-Computer Science department; or must be in one of the following programs (Computer Science (Master's); Computer Science (Doctoral)). Credit only granted for: CMSC412 or ENEE447.",
+    "prerequisites": "Minimum grade of C- in CMSC330 and CMSC351; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program. Restriction: Permission of CMNS-Computer Science department. Credit only granted for: CMSC414, ENEE459C, or ENEE457.",
+    "summary": "A hands-on introduction to operating systems, including topics in: multiprogramming, communication and synchronization, memory management, IO subsystems, and resource scheduling polices. The laboratory component consists of constructing a small kernel, including functions for device IO, multi-tasking, and memory management."
+  },
+  {
+    "course_section": "CMSC416",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC421",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC422",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC424",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC425",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC426",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC427",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC434",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC436",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC437",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC457",
+    "course_name": "Introductory Programming/Software laboratory for quantum computing. Understand the existing programming tools for quantum computers and the characteristics of quantum hardware. Develop quantum application prototypes and tools to characterize and mitigate the limitations of quantum hardware.",
+    "credits": "3",
+    "restrictions": "Permission of CMNS-Computer Science department.",
+    "prerequisites": "Minimum grade of C- in CMSC351; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+    "summary": "Introductory Programming/Software laboratory for quantum computing. Understand the existing programming tools for quantum computers and the characteristics of quantum hardware. Develop quantum application prototypes and tools to characterize and mitigate the limitations of quantum hardware."
+  },
+  {
+    "course_section": "CMSC451",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC452",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC456",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "(",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC460",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Permission of CMNS-Computer Science department.",
+    "prerequisites": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and 1 course with a minimum grade of C- from (MATH246, MATH341). Cross-listed with: AMSC460. Credit only granted for: AMSC460, AMSC466, CMSC460, or CMSC466.",
+    "summary": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences."
+  },
+  {
+    "course_section": "CMSC466",
+    "course_name": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+    "credits": "N/A",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC470",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC471",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC472",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Minimum grade of C- or higher in",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC475",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department. Additional information: Students in the Robotics and Autonomous Systems minor should take ENEE467 as a prerequisite; Computer Science students not in the minor should take CMSC420.",
+    "prerequisites": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340). And permission of CMNS-Computer Science department; or permission of CMNS-Mathematics department. Cross-listed with MATH475 .",
+    "summary": "General enumeration methods, difference equations, generating functions. Elements of graph theory, matrix representations of graphs, applications of graph theory to transport networks, matching theory and graphical algorithms."
+  },
+  {
+    "course_section": "CMSC477",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department. Additional information: Students in the Robotics and Autonomous Systems minor should take ENEE467 as a prerequisite; Computer Science students not in the minor should take CMSC420.",
+    "prerequisites": "1 course from (MATH240, MATH341, MATH461, ENEE290); and (ENEE467 or CMSC420). Restriction: Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department. Additional information: Students in the Robotics and Autonomous Systems minor should take ENEE467 as a prerequisite; Computer Science students not in the minor should take CMSC420.",
+    "summary": "A hands-on introduction to perception and planning for robotics, including rigid body transformations and rotations, dynamics and control of mobile robots/drones, graph based and sampling based planning algorithms, Bayseian and Kalman filtering, camera models and calibration, projective geometry, visual features, optical flow, pose estimation, RANSAC and Hough transform, structure from motion, visual odometry, machine learning basics, visual recognition and learning."
+  },
+  {
+    "course_section": "CMSC499",
+    "course_name": "(Perm Req)",
+    "credits": "1",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC624",
+    "course_name": "Database System Architecture and Implementation",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC651",
+    "course_name": "Analysis of Algorithms",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC656",
+    "course_name": "Introduction to Cryptography",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC661",
+    "course_name": "(Perm Req)",
+    "credits": "3",
+    "restrictions": "Must be in the Computer Science Master's or Doctoral program; or permission of instructor. Credit only granted for: CMSC838J or CMSC730. Formerly: CMSC838J.",
+    "prerequisites": "Must have knowledge of Matlab or Python. Must have basic knowledge of ordinary and partial differential equations (MATH246 and MATH462 or equivalent, or permission of instructor). Cross-listed with: AMSC661. Credit only granted for: AMSC661 or CMSC661.",
+    "summary": "Numerical methods for solving ordinary and partial differential equations (elliptic, parabolic, hyperbolic, and dispersive): motivation, analysis, and implementation. Finite difference methods, finite element methods, Fourier and Chebyshev spectral methods, and meshless methods."
+  },
+  {
+    "course_section": "CMSC701",
+    "course_name": "Computational Genomics",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC711",
+    "course_name": "Computer Networks",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC714",
+    "course_name": "High Performance Computing Systems",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC725",
+    "course_name": "Geographical Information Systems and Spatial Databases",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC730",
+    "course_name": "Interactive Technologies in Human-Computer Interaction",
+    "credits": "3",
+    "restrictions": "Must be in the Computer Science Master's or Doctoral program; or permission of instructor. Credit only granted for:",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC731",
+    "course_name": "Advances in XR",
+    "credits": "3",
+    "restrictions": "Must be in the Computer Science Master's or Doctoral programs. Credit only granted for: CMSC818N or CMSC756. Formerly: CMSC818N.",
+    "prerequisites": "CMSC420.",
+    "summary": "AR, VR, and MR, collectively referred to as XR, are becoming ubiquitous for human computer interaction with limitless applications and potential use. This course examines advances on real-time multi-modal XR systems in which the user is 'immersed' in and interacts with a simulated 3D environment. The topics will include display, modeling, 3D graphics, haptics, audio, locomotion, animation, applications, immersion, and presence and how they interact to create convincing virtual environments."
+  },
+  {
+    "course_section": "CMSC733",
+    "course_name": "Computer Processing of Pictorial Information",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC734",
+    "course_name": "Information  Visualization",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC752",
+    "course_name": "Ramsey Theory and its Applications",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "Any CMSC45X course or any 400-level math course. Credit only granted for:",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC754",
+    "course_name": "Computational Geometry",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC756",
+    "course_name": "Robotics",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC764",
+    "course_name": "Advanced Numerical Optimization",
+    "credits": "3",
+    "restrictions": "Must be in the Computer Science doctoral program. Credit only granted for: CMSC798F or CMSC800. Formerly: CMSC798F.",
+    "prerequisites": "MATH410 or equivalent; or permission of instructor. Credit only granted for: AMSC607, AMSC764, or CMSC764.",
+    "summary": "Modern numerical methods for solving unconstrained and constrained nonlinear optimization problems in finite dimensions. Design of computational algorithms and the analysis of their properties."
+  },
+  {
+    "course_section": "CMSC798",
+    "course_name": "(Perm Req)",
+    "credits": "1",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC799",
+    "course_name": "(Perm Req)",
+    "credits": "1",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC800",
+    "course_name": "How to Conduct Great Research",
+    "credits": "1",
+    "restrictions": "Must be in the Computer Science doctoral program. Credit only granted for:",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC848",
+    "course_name": "Selected Topics in Information Processing; Selected Topics in Machine Learning",
+    "credits": "3",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC657",
+    "course_name": "Show Sections",
+    "credits": "N/A",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC898",
+    "course_name": "Pre-Candidacy Research",
+    "credits": "1",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  },
+  {
+    "course_section": "CMSC899",
+    "course_name": "(Perm Req)",
+    "credits": "6",
+    "restrictions": "None",
+    "prerequisites": "None",
+    "summary": "N/A"
+  }
+]
