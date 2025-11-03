@@ -2,24 +2,6 @@
 
 An AI-powered course selection platform with a React frontend and Python web scraper backend that integrates with UMD Testudo's Schedule of Classes.
 
-## Project Structure
-
-```
-courseai/
-├── src/                    # React frontend
-│   ├── components/        # Reusable UI components
-│   ├── screens/           # Page components
-│   └── assets/            # Styles and static assets
-├── backend/               # Python web scraper
-│   ├── scraper.py         # UMD Testudo scraper
-│   └── requirements.txt   # Python dependencies
-└── classes.json           # Scraped course data (generated)
-```
-
-## Frontend Setup
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
